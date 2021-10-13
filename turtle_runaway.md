@@ -37,9 +37,12 @@
 >더 가까이 닿았을 때 잡히도록 수정.<br>
 >추격자가 도망자를 잡으면 게임이 종료,  점수가 나오고 점수는 105점 만점, (100 - 게임을 한 시간)으로 삽입,  
 > 
-> <br>
->4.turtle_runaway.png 파일<br>
->![turtle_runaway](./image/turtle_runaway.png)
 ><br>
+>4.turtle_runaway.png 파일<br>
+>
+>![turtle_runaway](./image/turtle_runaway.png)
+>
+><br>
+>
 >참고사이트 : <a>https://docs.python.org/ko/dev/library/turtle.html#turtle.done
->cf) title 또한 변경
+><br>cf) title 또한 변경
