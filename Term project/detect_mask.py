@@ -12,7 +12,7 @@ import time
 import pyautogui as pg
 
 
-
+# 모델을 로드, 경고음악 및 퇴출 음악 로드, 좌석번호 입력 및 경고창 생성
 model = load_model('C:/Users/TFG242/python/project/best_model.h5')
 pygame.init()
 pygame.mixer.init()
@@ -66,7 +66,7 @@ while webcam.isOpened():
             mask=prediction[0][0]
             nomask=prediction[0][1]
             
-            # nomask로 판별 될 시! 경고 및 퇴출 및 프로그램 종료, 메시지 전송
+            # nomask로 판별 될 시! 1,2차 경고 및 3차 퇴출, 후 프로그램 종료, 관리자에게 메시지 전송
             if mask < nomask:
                 warning += 1
                 if warning == 3 : 
