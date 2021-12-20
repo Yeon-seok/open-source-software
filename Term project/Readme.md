@@ -12,7 +12,7 @@
 </br>
  학교 도서관을 보면 아래와 같은 사진을 확인 할 수 있습니다. 대부분의 사람들은 잘 지키지만 가끔 취식을 하거나 답답하다는 핑계로 코스크나 턱스크를 하는 사람들을 발견 할 수 있습니다. 하지만 어느 누구도 제지를 하거나 실제로 적발하여 퇴실 및 출입제한을 하는 경우는 없었습니다. 사실 관리자가 이 넓은 구역을 담당하는 것은 어려울 것 입니다. 따라서 이를 무인으로 탐지하여 관리자에게 알림을 주는 프로그램이 있으면 어떨까 해서 이와 같은 프로젝트를 구현해보았습니다.</br>
 
-![도서관 사진](/image/도서관사진.jpg "도서관 사진")
+![도서관 사진](./image/도서관사진.jpg "도서관 사진")
 
 ---
 
@@ -139,51 +139,51 @@
 프로그램 시작 전 예제 화면입니다. 인터넷 사진은 저작권이 없는 사진들 입니다.
 또한 저의 얼굴도 모자이크 하였습니다.
 
-![mask detection example](/image/example1.jpg )
+![mask detection example](./image/example1.jpg )
 
-![mask detection example](/image/example2.jpg )
+![mask detection example](./image/example2.jpg )
 
-![mask detection example](/image/example5.jpg )
+![mask detection example](./image/example5.jpg )
 
 
 
 
 - 프로그램 시작
 
-![프로그램 시작](/image/1.jpg )
+![프로그램 시작](./image/1.jpg )
 
 - 좌석번호 입력
 
-![좌석번호 입력](/image/2.jpg )
+![좌석번호 입력](./image/2.jpg )
 
 - 알림창
 
-![알림창](/image/3.jpg )
+![알림창](./image/3.jpg )
 
 - mask detection 작동 중
 
-![mask detection 작동 중](/image/4.jpg )
+![mask detection 작동 중](./image/4.jpg )
 
 - 1차 경고
 
-![1차 경고](/image/5.jpg )
+![1차 경고](./image/5.jpg )
 
 - 마스크 착용 후 확인 버튼 클릭
 
-![마스크 착용 후 확인 버튼 클릭](/image/6.jpg )
+![마스크 착용 후 확인 버튼 클릭](./image/6.jpg )
 
 - 2차 경고
 
-![2차 경고](/image/7.jpg )
+![2차 경고](./image/7.jpg )
 
 - 마스크 착용 후 확인 버튼 클릭
 
-![마스크 착용 후 확인 버튼 클릭](/image/8.jpg )
+![마스크 착용 후 확인 버튼 클릭](./image/8.jpg )
 
 - 3차 퇴출
 
-![3차 퇴출](/image/9.jpg )
+![3차 퇴출](./image/9.jpg )
 
 - 메시지 전송 
 
-![메시지 전송](/image/message.png )
+![메시지 전송](./image/message.png )
