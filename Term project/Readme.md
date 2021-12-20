@@ -20,7 +20,7 @@
 
 </br>
 
-- [Face Mask Detection data set](https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset) (**temp** 폴더에 존재)
+- [Face Mask Detection data set](https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset) 
 
     먼저 마스크를 썼는지 안썼는지에 대해 판별하기 위해 데이터가 필요하여 kaggle에서 적당한 크기의 데이터를 선정하였습니다. 11800여장의 적절한 크기의 데이터로 이루어져있고 train, validation, test set이 각 폴더 별로 학습하기 쉽게 나뉘어져 있어 이 data set을 선정하였습니다.
 
