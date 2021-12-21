@@ -4,7 +4,7 @@
 
 - 14109344 Seong Yeon-seok
 
-- Opensourcesoftware Project
+- Opensource software Project
 
 ---
 
@@ -27,6 +27,10 @@
 - **data_to_csv.py**
 
     데이터를 받아보니 csv 파일이 없고 이름이 중복된 것들이 많아 python을 이용해 정리하였습니다. 
+    
+    *v2. 데이터의 경우 용량이 커 따로 올리지 않겠습니다.*<br>
+    *csv 파일만 올리겠습니다.*
+
 
 - **mask_detaction.ipynb**
 
@@ -72,11 +76,12 @@
     - 저장한 이미지 파일에 대한 label값을 설정하여 csv 파일로 저장
     - 마스크를 썼으면 label에 1, 안썼으면 0
     - train, test, valiation을 폴더마다 따로 적용
+    - labeling을 한 csv 파일을 이용해 학습을 진행 할 수도 있었지만 이미 data set들이 폴더별로 잘 나뉘어져 있었기에 따로 사용하지 않음
 직접 작성한 코드
 
 ### 2. mask_detaction.ipynb </br>
     - 정리한 데이터를 colab에서 모델을 통해 학습하기 위해 google drive로 이동
-    - csv 파일을 불러왔으나 이미 폴더별로 잘 정리가 되어 있어 필요 없어짐.
+    - csv 파일을 불러왔으나 이미 폴더별로 잘 정리가 되어 있어 사용하지 않음
     - 모델을 학습시켰을 때 validation에서 error가 발생했는데 검색결과 열 수 없는 이미지 파일이라면 오류가 날 수 있다고 하여 이를 찾아주는 코드를 작성
     - 비교적 단순한 모델이기 때문에 복잡한 모델보다는 비교적 단순한 네트워크를 가진 vgg19 사용.
     - pre_train된 keras의 VGG19 모델을 불러 온 다음 Pre_train된 모델은 freeze
@@ -98,7 +103,7 @@
     Epoch 00030: val_loss did not improve from 0.00006
     156/156 [==============================] - 126s 807ms/step - loss: 4.6579e-04 - accuracy: 0.9999 - val_loss: 8.8889e-04 - val_accuracy: 1.0000
     - 가장 학습이 잘 된 모델을 불러와 validation data와 test data에 대해 confusion matrix를 그려보니 거의 완벽하게 구분하는 것을 확인 할 수 있었음.
-기계학습 시간에 프로젝트한 코드를 바탕으로 구현.
+기계학습 시간에 프로젝트한 내용을 바탕으로 직접 구현.
 
 ### 3. best_model.h5 </br>
     - 모델 학습 시 chechpoint를 사용하여 val_loss: 8.8889e-04 - val_accuracy: 1.0000의 가장 좋은 성능을 가진 모델을 저장한 파일.
@@ -140,7 +145,7 @@
 - mask detection example
 
 프로그램 시작 전 예제 화면입니다. 인터넷 사진은 저작권이 없는 사진들 입니다.
-또한 저의 얼굴도 모자이크 하였습니다.
+또한 저의 얼굴도 모자이크 하였습니다. 이미지로 첨부하는지 않았지만 검정색 마스크도 잘 구별하였습니다.
 
 ![mask detection example](./image/example1.jpg )
 
