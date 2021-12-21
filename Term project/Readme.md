@@ -77,7 +77,7 @@
     - 마스크를 썼으면 label에 1, 안썼으면 0
     - train, test, valiation을 폴더마다 따로 적용
     - labeling을 한 csv 파일을 이용해 학습을 진행 할 수도 있었지만 이미 data set들이 폴더별로 잘 나뉘어져 있었기에 따로 사용하지 않음
-직접 작성한 코드
+직접 구현한 코드
 
 ### 2. mask_detaction.ipynb </br>
     - 정리한 데이터를 colab에서 모델을 통해 학습하기 위해 google drive로 이동
@@ -130,10 +130,10 @@
     - 파파고에서 나오는 음성을 녹음한 mp3 파일.
 
 ### 9. detect mask.py </br>
-    - opencv와 cvlib lib를 활용하여 얼굴을 검출하고 미리 학습 된 모델이 predict하여  마스크 착용 여부 확인.
-    - 만약 
+    - opencv와 cvlib lib를 활용하여 얼굴을 검출하고 미리 학습 된 모델이 predict하여 마스크 착용 여부 확인.
     - 다양한 알림창 및 경고창 추가
     - 가장 먼저 좌석번호 입력.
+    - cam이 켜지면 model이 predict하고 mask의 확률과 nomask의 확률을 판단.
     - 마스크 미착용 시 모델이 이를 판단하고 바로 경고창과 warning_sound가 울림.
     - 마스크를 다시 착용하고 확인 버튼을 클릭 시까지 warning_sound가 울림.
     - 2차 경고까지는 동일, 3차 경고 시 exit_sound가 울리며 관리자에게 좌석번호와 함께 조치를 취해달라는 메시지를 보내도록 구현.
